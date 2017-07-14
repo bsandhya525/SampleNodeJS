@@ -4,18 +4,19 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "forever start app.js",
+    "stop": "forever stopall"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bsandhya525/NodeJS.git"
+    "url": "git+https://github.com/bsandhya525/SampleNodeJS.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bsandhya525/NodeJS/issues"
+    "url": "https://github.com/bsandhya525/SampleNodeJS/issues"
   },
-  "homepage": "https://github.com/bsandhya525/NodeJS#readme",
+  "homepage": "https://github.com/bsandhya525/SampleNodeJS#readme",
   "dependencies": {
     "express": "^4.15.3"
   }
